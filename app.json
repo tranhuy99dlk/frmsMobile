@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "frmsMobile",
+    "slug": "frmsMobile",
+    "version": "1.0.0",
+    "icon": "./assets/fireStation.png",
+    "splash": {
+      "image": "./assets/fireStation.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0
+  },
+  "assetBundlePatterns": ["**/*"],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "org.name.frmsMobile",
+    "config": {
+      "googleMapsApiKey": "AIzaSyAK80vJyVekMvYLMuNbkYmeVHCvxg7vHt0"
+    }
+  },
+  "android": {
+    "package": "com.frmsmobile",
+    "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyBtP0ZBQygLDYGa6IqaJ_Db8pdk7j1xb7k"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    }
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}
